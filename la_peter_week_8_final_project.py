@@ -137,7 +137,7 @@ ax.set_xlabel('Age')
 ax.set_ylabel('Average Glucose Level')
 
 # Customize legend
-legend_labels = ['No Stroke', 'Stroke']
+legend_labels = ['Stroke', 'No Stroke']
 ax.legend(title='Stroke Status', labels=legend_labels)
 
 # Display the plot
